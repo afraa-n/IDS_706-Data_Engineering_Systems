@@ -1,8 +1,8 @@
 """test_main module"""
 import main
 
-def log_testing():
+def test_main():
     '''
-    testing function for log
+    testing function for system
     '''
-    assert not main.log("This is a log message.").isEmpty()
+    assert not main.display_system_info().isEmpty()
