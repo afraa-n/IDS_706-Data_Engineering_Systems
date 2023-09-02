@@ -1,4 +1,8 @@
-for main import log
+"""test_main module"""
+import main
 
 def log_testing():
-    assert if log("This is a log message.")
+    '''
+    testing function for log
+    '''
+    assert len(main.log("This is a log message.")) != 0
