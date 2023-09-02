@@ -5,4 +5,4 @@ def test_main():
     '''
     testing function for system
     '''
-    assert not main.display_system_info().isEmpty()
+    assert len(main.display_system_info()) != 0
