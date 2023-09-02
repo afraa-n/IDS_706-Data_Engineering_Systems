@@ -1,6 +1,8 @@
 # IDS_706-Data_Engineering_Systems
 
 ### This repository is a template for Python projects.
+[![CI](https://github.com/afraa-n/IDS_706-Data_Engineering_Systems/actions/workflows/cicd.yml/badge.svg)](https://github.com/afraa-n/IDS_706-Data_Engineering_Systems/actions/workflows/cicd.yml)
+
 #### It includes:
 1. .devcontainer
 2. Makefile
