@@ -6,7 +6,7 @@
 
 #### It includes:
 1. **.devcontainer**: configuration folder which contains a **Dockerfile** and **devcontainer.json**.
-   - ** Dockerfile**: specifies the instructions for building a Docker container image that will be used as the development environment.
+   - **Dockerfile**: specifies the instructions for building a Docker container image that will be used as the development environment.
    - **devcontainer.json**: defines the settings for the development container, such as which Dockerfile to use and environment variables.
 3. **Makefile**: contains a set of rules that define how to compile source code, run tests, and perform other development tasks. 
 4. **requirements.txt**: lists all the external libraries and dependencies required for the project to run correctly. It is commonly used with package managers like pip to install the necessary packages and helps ensure that everyone working on the project uses the same versions of libraries, which is important for reproducibility and compatibility.
