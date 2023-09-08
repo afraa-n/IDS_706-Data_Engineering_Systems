@@ -4,7 +4,7 @@
 
 ***
 
-#### It includes:
+#### This template includes:
 1. **.devcontainer**: configuration folder which contains a **Dockerfile** and **devcontainer.json**.
    - **Dockerfile**: specifies the instructions for building a Docker container image that will be used as the development environment.
    - **devcontainer.json**: defines the settings for the development container, such as which Dockerfile to use and environment variables.
