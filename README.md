@@ -17,3 +17,30 @@
 9. **.gitignore**: specifies files and directories that should be ignored by Git, the version control system used by GitHub. Changes in files or directories in the .gitignore file will not be tracked by Git, and they will not be included in the version history.
 
 ***
+
+### Commands to Run the Repo
+
+To run the project, you can use the Makefile and follow these commands:
+1. ```
+   # To install the required the python packages
+   make install
+   ```
+2. ```
+   # To check code style
+   make lint
+   ```
+3. ```
+   # To run tests
+   make test
+   ```
+4. ```
+   # To format the code
+   make format
+   ```
+5. ```
+   # To perform all the above tasks (install, test, format, lint)
+   make all
+   ```
+
+***
+
